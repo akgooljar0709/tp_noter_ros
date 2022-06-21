@@ -16,8 +16,7 @@ rospy.init_node('register')
 
 markerArray = MarkerArray()
 
-count = 0
-MARKERS_MAX = 4
+
 
 while not rospy.is_shutdown():
 
@@ -28,10 +27,10 @@ while not rospy.is_shutdown():
    marker.scale.x = 0.5
    marker.scale.y = 0.5
    marker.scale.z = 0.5
-   marker.color.a = 1.0
-   marker.color.r = 1.0
-   marker.color.g = 1.0
-   marker.color.b = 0.0
+   marker.color.a = 0.1
+   marker.color.r = 0.1
+   marker.color.g = 0.1
+   marker.color.b = 0.8
    marker.pose.orientation.w = 1.0
    marker.pose.position.x = 5
    marker.pose.position.y = 2
@@ -51,9 +50,9 @@ while not rospy.is_shutdown():
    secound_marker.scale.y = 0.5
    secound_marker.scale.z = 0.5
    secound_marker.color.a = 1.0
-   secound_marker.color.r = 1.0
-   secound_marker.color.g = 1.0
-   secound_marker.color.b = 0.0
+   secound_marker.color.r = 0.1
+   secound_marker.color.g = 0.1
+   secound_marker.color.b = 0.8
    secound_marker.pose.orientation.w = 1
    secound_marker.pose.position.x = 5
    secound_marker.pose.position.y = 3
@@ -68,9 +67,9 @@ while not rospy.is_shutdown():
    third_marker.scale.y = 0.5
    third_marker.scale.z = 0.5
    third_marker.color.a = 1.0
-   third_marker.color.r = 1.0
-   third_marker.color.g = 1.0
-   third_marker.color.b = 0.0
+   third_marker.color.r = 0.1
+   third_marker.color.g = 0.1
+   third_marker.color.b = 0.8
    third_marker.pose.orientation.w = 1
    third_marker.pose.position.x = 4
    third_marker.pose.position.y = 2
@@ -86,9 +85,9 @@ while not rospy.is_shutdown():
    fourth_marker.scale.y = 0.5
    fourth_marker.scale.z = 0.5
    fourth_marker.color.a = 1.0
-   fourth_marker.color.r = 1.0
-   fourth_marker.color.g = 1.0
-   fourth_marker.color.b = 0.0
+   fourth_marker.color.r = 0.1
+   fourth_marker.color.g = 0.1
+   fourth_marker.color.b = 0.8
    fourth_marker.pose.orientation.w = 1
    fourth_marker.pose.position.x = 4
    fourth_marker.pose.position.y = 3
