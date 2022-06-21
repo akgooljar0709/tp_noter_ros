@@ -12,7 +12,7 @@ https://github.com/akgooljar0709/tp_noter_ros.git
 cd marker_ws
 source devel/setup.bash
 roscore
-rosrun marker_visualiser publish_marker.py /visualization_marker=:/marker_test
+rosrun marker_visualiser publish_marker.py /visualization_marker:=/marker_test
 rviz
 ```
 
@@ -21,7 +21,7 @@ rviz
 
 source devel/setup.bash
 roscore
-rosrun marker_visualiser publish_marker_array.py /visualization_marker=:/space_delimiter
+rosrun marker_visualiser publish_marker_array.py /visualization_marker:=/space_delimiter
 rviz
 ```
 
