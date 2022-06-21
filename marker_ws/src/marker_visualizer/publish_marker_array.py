@@ -27,7 +27,7 @@ while not rospy.is_shutdown():
    marker.scale.x = 0.5
    marker.scale.y = 0.5
    marker.scale.z = 0.5
-   marker.color.a = 0.1
+   marker.color.a = 1
    marker.color.r = 0.1
    marker.color.g = 0.1
    marker.color.b = 0.8

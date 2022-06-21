@@ -24,10 +24,10 @@ marker.scale.z = 0.5
 
 
 # Set the color
-marker.color.r = 1.0
-marker.color.g = 1.0
-marker.color.b = 1.0
-marker.color.a = 1.0
+marker.color.a = 1
+marker.color.r = 0.1
+marker.color.g = 0.1
+marker.color.b = 0.8
 
 # Set the pose of the marker
 marker.pose.position.x = 5
